@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- I changed the -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>My Website</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<!--[if IE 7]>
+			<link rel="stylesheet" href="css/ie7.css" type="text/css" />
+		<![endif]-->
+		<script>
+			// Function JS for pop-up welcoming Prof. Ozaydin
+			window.onload = function() {
+			  alert('Welcome Professor Ozaydin!');
+			};
+			    // Prompt the user to enter their name
+				var userName = prompt("Please enter your name:");
+				// Check if the user entered a name
+				if (userName) {
+					// Display a greeting message with the user's name
+					alert("Hello, " + userName + "! Welcome to my website.");
+				} else {
+					// Handle case where user cancels or inputs nothing
+					alert("Hello, anonymous user! Welcome to my website.");
+}
+		  </script>
+	</head>
+	<body>
+		<div class="page">
+			<div class="header">
+				<a href="index.html" id="logo"><img src="images/logo.png" alt=""/></a>
+				<ul>
+					<li class="selected"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="blog.html">Hobbies</a></li>
+				</ul>
+			</div>
+			<div class="body">
+				<div id="featured">
+					<h3>Hi! I am Verrell</h3>
+					<p>	I am Verrell Reyhan Deandrew, a student of International Relations at Tokyo International University. 
+						I have created a personal website to share more about myself and my hobbies. On my site, you'll find 
+						information about my background, interests, and the activities I enjoy. Whether it's my passion for 
+						cooking, love for golf, or my interest in sports, you'll get to know me better through my website. 
+						Visit my site to learn more about who I am and what I love to do.</p>
+					<input type="button" value="Read more" onClick="parent.location='blog.html'"/>
+				</div>
+				<ul class="blog">
+					<li>
+						<div>
+							<a href="blog.html"><img src="images/golf.jpg" alt="" style="width: 258px; border-radius: 5px;"></a><!-- I changed the style here (border radius and width of my image)-->
+							<p>I absolutely love playing golf, enjoying the challenge and tranquility it brings. It's my favorite way to relax and compete.</p>
+							<a href="blog.html">Click to read more</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a href="blog.html"><img src="images/cook.jpg" alt=""style="width: 258px; border-radius: 5px;"></a><!-- I changed the style here (border radius and width of my image)-->
+							<p>I absolutely love cooking, finding joy in creating delicious meals. It's my way to relax and express my creativity.</p>
+							<a href="blog.html">Click to read more</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a href="blog.html"><img src="images/soccer.jpg" alt=""style="width: 258px; border-radius: 5px;"/></a><!-- I changed the style here (border radius and width of my image)-->
+							<p>I love playing soccer; it's one of my favorite way to stay active and have fun and stay healthy.</p>
+							<a href="blog.html">Click to read more</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="footer">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="blog.html">Hobbies</a></li>
+				</ul>
+				<p> (ID) 21319070 - Verrell Reyhan Deandrew </p>
+				<div class="connect">
+					<a href="http://facebook.com/freewebsitetemplates" id="facebook">facebook</a>
+					<a href="http://twitter.com/fwtemplates" id="twitter">twitter</a>
+					<a href="http://www.youtube.com/fwtemplates" id="vimeo">vimeo</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>  
